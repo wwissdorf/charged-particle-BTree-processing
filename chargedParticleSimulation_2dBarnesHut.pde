@@ -97,11 +97,6 @@ void draw() {
   duration = (endTime - startTime)/1e9;
   println("step "+step+" duration "+duration); 
   step++;
-  //ionSystem.render();
-  //saveFrame("frames/####.png");
-}
 
-// Add a new boid into the System
-void mousePressed() {
-  //flock.addBoid(new Boid(mouseX,mouseY));
+  //saveFrame("frames/####.png");
 }
